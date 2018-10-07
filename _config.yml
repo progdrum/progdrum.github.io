@@ -1,0 +1,63 @@
+# Site settings
+title: Projects n' Things
+description: "Still rocking some projects n' things"
+# baseurl: ""
+# url: ""
+
+# User settings
+username: Sean Barnett
+user_title: Sean Barnett - Awesome Dude
+email: brookforestscitech@gmail.com
+github_username: progdrum
+linkedin_public_url: sean-barnett-b54b8821/
+# disqus_username: loremipsum
+# profile_picture:
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# HTML minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+links:
+  section_1:
+    - title: Home
+      url: /
+      key_trigger: 1
+    - title: Posts
+      url: /posts
+      key_trigger: 2
+    - title: Series
+      url: /series
+      key_trigger: 3
+    - title: Tags
+      url: /tags
+      key_trigger: 4
+    - title: About
+      url: /about
+      key_trigger: 5
+  section_2:
+    - title: GitHub
+      url: http://www.github.com/progdrum
+      new_tab: true
+      key_trigger: g
+    - title: Search
+      url: ""
+      key_trigger: s #WARNING: search only works with "s"
+
+# Projects in header index
+projects:
+  - name: Beer Maps
+    url: https://github.com/progdrum/beermaps
+  - name: Worditize
+    url: https://github.com/progdrum/worditize
+
+# Exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
