@@ -1,12 +1,12 @@
 # Site settings
-title: Projects n' Things
+title: What I'm Doing
 description: "Still rocking some projects n' things"
 # baseurl: ""
 # url: ""
 
 # User settings
 username: Sean Barnett
-user_title: Sean Barnett - Awesome Dude
+user_title: Administrator
 email: brookforestscitech@gmail.com
 github_username: progdrum
 linkedin_public_url: sean-barnett-b54b8821/
@@ -54,10 +54,12 @@ links:
 
 # Projects in header index
 projects:
-  - name: Beer Maps
+  - name: Beer Maps (Shiny app, Mapping)
     url: https://github.com/progdrum/beermaps
-  - name: Worditize
+  - name: Worditize (Shiny app, Text Analysis)
     url: https://github.com/progdrum/worditize
+  - name: What is a Data Scientist? (Text Analysis, Web Scraping)
+    url: https://github.com/progdrum/stack_ds_scrape
 
 # Exclude my node related stuff
 exclude: ['package.json', 'src', 'node_modules']
