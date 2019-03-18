@@ -1,8 +1,8 @@
 # Site settings
-title: What I'm Doing
+title: Sean Barnett
 description: "Still rocking some projects n' things"
-# baseurl: ""
-# url: ""
+baseurl: ""
+url: ""
 
 # User settings
 username: Sean Barnett
