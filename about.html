@@ -2,15 +2,18 @@
 layout: minimal
 title: "About me"
 permalink: /about/index.html
-description: "Code, GIS, and some other stuff Sean Barnett does."
+description: "Code, GIS, AI, and some other stuff Sean Barnett does."
 ---
 
-<h2>My projects</h2>
+<h2>About Me</h2>
+
+<!-- <img src="/../src/img/me_forest.jpg"> -->
 
 <div class="aboutme">
-	<ul class="recent">
-		{% for project in site.projects %}
-	    	<li><a href="{{ project.url}}"><h3 class="project-name" itemprop="name">{{ project.name }}</h3></a></li>
-	    {% endfor %}
-	</ul>
+	<p>
+		Sean Barnett presently works as a data engineer, but has a plethora of interests,
+		including, but certainly not limited to: GIS, AI, and cognitive science, among
+		others. He has extensive software development and research experience and is
+		always ready for the opportunity to put his skills to work.
+	</p>
 </div>
