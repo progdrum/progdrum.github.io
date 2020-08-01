@@ -2,6 +2,7 @@
 layout: post
 title: "Worditize is Live!"
 date: 2019-03-17 19:32
+description: "A small writeup about my new NLP R Shiny project."
 tags:
   - r
   - shiny
