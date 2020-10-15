@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Using QGIS, Python, and R Together for Raster Processing"
 date: 2020-07-26 22:56
 description: "Outlining my process to combine the powers of R, Python, and QGIS
